@@ -1,15 +1,13 @@
-let nome = "Théo";
-let idade = 16;
-let cidade = "Rio de Janeiro - RJ";
-let altura = 1.83;
-let ehHumano = true;
+let texto = "Olá mundo!";
+let numero = 3;
+let pi = 3.14;
+let booleano = true;
+let nulo= null;
+let indefinido;
 
-console.log(typeof nome);
-
-console.log("Nome: ", nome);
-console.log("Idade: ", idade);
-console.log("Altura: ", altura);
-console.log("Cidade: ", cidade);
-console.log("É humano? ", ehHumano);
-
-console.log(`Meu nome é ${nome}, tenho ${idade}, minha altura é ${altura}, sou natural da cidade ${cidade}, sou um humano? ${ehHumano}`);
+console.log(typeof texto); // string
+console.log(typeof numero); // number
+console.log(typeof pi); // number
+console.log(typeof booleano); // boolean
+console.log(typeof nulo); // objetct (isso é um bug do javascript)
+console.log(typeof indefinido); // undefined
