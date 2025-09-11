@@ -1,20 +1,43 @@
+let a = 5;
+let b = "5";
+
+
 /*
-    Em Portugol
 
-    inteiro nota = 85;
+"=" Verifica somente o tipo da variável
+"==" Verifica somente o conteúdo
+"===" Verifica o conteúdo e o tipo da variável
 
-    se (nota >= 90){
-        escreva("Aprovado!");
-    } senao{
-        escreva("Reprovado!");
-}
+Mema coisa vale pra os tipos dediferentes ( !=, !== )
+
 */
 
-let nota = 85;
+if (a = b){
+    console.log("true");
+} else {
+    console.log("false");
+}
 
+if (a == b){
+    console.log("true");
+} else {
+    console.log("false");
+}
 
-if (nota >= 90){
-    console.log("Aprovado!");
-} else{
-    console.log("Reprovado!");
+if (a === b){
+    console.log("true");
+} else {
+    console.log("false");
+}
+
+if (a != b){
+    console.log("true");
+} else {
+    console.log("false");
+}
+
+if (a !== b){
+    console.log("true");
+} else {
+    console.log("false");
 }
