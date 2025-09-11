@@ -1,11 +1,20 @@
-let nome = "Théo";
-let idade = 16;
-let altura = 1.83;
-let estudante = true;
-let endereco = "Rua Macedo Sobrinho, Rio de Janeiro - RJ";
+/*
+    Em Portugol
 
-console.log(`Nome: ${nome}`);
-console.log(`Idade: ${idade}`);
-console.log(`Altura: ${altura}`);
-console.log(`Estuidante: ${estudante}`);
-console.log(`Endereço: ${endereco}`);
+    inteiro nota = 85;
+
+    se (nota >= 90){
+        escreva("Aprovado!");
+    } senao{
+        escreva("Reprovado!");
+}
+*/
+
+let nota = 85;
+
+
+if (nota >= 90){
+    console.log("Aprovado!");
+} else{
+    console.log("Reprovado!");
+}
