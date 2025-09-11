@@ -1,43 +1,29 @@
-let a = 5;
-let b = "5";
+let idade = 61;
 
+
+if (idade < 13){
+    console.log("Criança");
+}  else if(idade < 18){
+    console.log("Adolecente");
+} else if(idade < 60){
+    console.log("Adulto");
+} else {
+    console.log("Idoso");
+}
 
 /*
+Em Portugol
 
-"=" Verifica somente o tipo da variável
-"==" Verifica somente o conteúdo
-"===" Verifica o conteúdo e o tipo da variável
+    inteiro idade = 61
 
-Mema coisa vale pra os tipos dediferentes ( !=, !== )
-
+    se (idade < 13){
+        escreva("Criança");
+    }  senao se(idade < 18){
+        escreva("Adolecente");
+    } senao se(idade < 60){
+        console.log("Adulto");
+    } senao {
+       escreva("Idoso");
+}
+       
 */
-
-if (a = b){
-    console.log("true");
-} else {
-    console.log("false");
-}
-
-if (a == b){
-    console.log("true");
-} else {
-    console.log("false");
-}
-
-if (a === b){
-    console.log("true");
-} else {
-    console.log("false");
-}
-
-if (a != b){
-    console.log("true");
-} else {
-    console.log("false");
-}
-
-if (a !== b){
-    console.log("true");
-} else {
-    console.log("false");
-}
